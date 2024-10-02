@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 1s;
+    background: linear-gradient(to right, red, gold);
+  }
+  
+  .userForm {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, red, purple);
+    border-radius: 10px;
+    color: black;
+  }
+  
+  .userForm input,
+  .userForm button {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .celebrationCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
